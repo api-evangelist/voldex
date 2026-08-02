@@ -1,7 +1,29 @@
 aid: voldex
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/voldex.png
 name: Voldex
-description: Voldex is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Voldex (Voldex Entertainment) is a game developer and publisher founded in
+  2015 that acquires, operates, and grows platform-leading games on Roblox,
+  including Brookhaven, Driving Empire, and NFL Universe Football, collectively
+  reaching over 140 million monthly players. Its stated mission is to "bring
+  people together through fun," pursuing a focused strategy of selectively
+  acquiring and stewarding enduring Roblox experiences rather than broad
+  portfolio expansion. Voldex publishes no public developer API, SDK, CLI, or
+  API documentation surface — it is a consumer games studio whose products run
+  inside the Roblox platform. This profile is maintained in the API Evangelist
+  network as an a16z portfolio company; it was reviewed by the enrichment
+  pipeline and confirmed to have no API surface to catalog.
 url: https://raw.githubusercontent.com/api-evangelist/voldex/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Gaming
+- Games
+- Roblox
+- Entertainment
+- Game Development
+- Consumer
+- Portfolio Company
 apis: []
+common:
+- type: Website
+  url: https://voldex.com
+- type: Support
+  url: https://voldex.com/about#contact
+- type: Blog
+  url: https://voldex.com/news
+- type: Careers
+  url: https://voldex.com/careers
+- type: TermsOfService
+  url: https://voldex.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://voldex.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
